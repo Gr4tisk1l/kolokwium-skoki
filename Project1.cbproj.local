@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.804,=F:\embarcadero\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.681,=F:\embarcadero\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.990,=F:\embarcadero\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.930,=F:\embarcadero\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.277,=F:\embarcadero\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.426,=F:\embarcadero\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.566,=F:\embarcadero\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.308,=F:\embarcadero\Project1PCH1.h</Transaction>
+    <Transaction>2019.04.24 19:27:56.464,=F:\embarcadero\Project1PCH1.h</Transaction>
+    <Transaction>2019.04.24 19:27:56.585,=F:\embarcadero\Unit1.cpp</Transaction>
+    <Transaction>2019.04.24 19:28:03.075,=F:\embarcadero\Unit2.cpp</Transaction>
+    <Transaction>2019.04.24 19:28:10.247,=F:\embarcadero\Unit3.cpp</Transaction>
+    <Transaction>2019.04.24 19:30:08.023,F:\embarcadero\kolokwium-skoki\Unit3.h=F:\embarcadero\Unit3.h</Transaction>
+    <Transaction>2019.04.24 19:30:08.023,F:\embarcadero\kolokwium-skoki\Unit3.dfm=F:\embarcadero\Unit3.dfm</Transaction>
+    <Transaction>2019.04.24 19:30:08.023,F:\embarcadero\kolokwium-skoki\Unit3.cpp=F:\embarcadero\Unit3.cpp</Transaction>
+    <Transaction>2019.04.24 19:30:12.785,F:\embarcadero\kolokwium-skoki\Unit2.h=F:\embarcadero\Unit2.h</Transaction>
+    <Transaction>2019.04.24 19:30:12.785,F:\embarcadero\kolokwium-skoki\Unit2.cpp=F:\embarcadero\Unit2.cpp</Transaction>
+    <Transaction>2019.04.24 19:30:12.785,F:\embarcadero\kolokwium-skoki\Unit2.dfm=F:\embarcadero\Unit2.dfm</Transaction>
+    <Transaction>2019.04.24 19:30:13.614,F:\embarcadero\kolokwium-skoki\Unit1.dfm=F:\embarcadero\Unit1.dfm</Transaction>
+    <Transaction>2019.04.24 19:30:13.614,F:\embarcadero\kolokwium-skoki\Unit1.cpp=F:\embarcadero\Unit1.cpp</Transaction>
+    <Transaction>2019.04.24 19:30:13.614,F:\embarcadero\kolokwium-skoki\Unit1.h=F:\embarcadero\Unit1.h</Transaction>
+    <Transaction>2019.04.24 19:30:14.399,F:\embarcadero\kolokwium-skoki\Project1PCH1.h=F:\embarcadero\Project1PCH1.h</Transaction>
+    <Transaction>2019.04.24 19:30:15.364,F:\embarcadero\kolokwium-skoki\Project1.cbproj=F:\embarcadero\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
