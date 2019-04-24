@@ -16,45 +16,43 @@ object Form6: TForm6
   object Label1: TLabel
     Left = 48
     Top = 43
-    Width = 44
+    Width = 31
     Height = 13
-    Caption = 'Nazwisko'
+    Caption = 'Label1'
   end
   object Label2: TLabel
     Left = 48
     Top = 75
-    Width = 20
+    Width = 31
     Height = 13
-    Caption = 'Imie'
+    Caption = 'Label2'
   end
   object Label3: TLabel
     Left = 48
     Top = 107
-    Width = 19
+    Width = 31
     Height = 13
-    Caption = 'Kraj'
+    Caption = 'Label3'
   end
   object Label4: TLabel
     Left = 48
     Top = 139
-    Width = 37
+    Width = 31
     Height = 13
-    Caption = 'Dlugosc'
+    Caption = 'Label4'
   end
   object Label5: TLabel
     Left = 48
     Top = 166
-    Width = 23
+    Width = 31
     Height = 13
-    Caption = 'Nota'
+    Caption = 'Label5'
   end
   object DBEdit1: TDBEdit
     Left = 168
     Top = 40
     Width = 121
     Height = 21
-    DataField = 'NAZWISKO'
-    DataSource = DataModule2.DataSource1
     TabOrder = 0
   end
   object DBEdit2: TDBEdit
@@ -62,8 +60,6 @@ object Form6: TForm6
     Top = 72
     Width = 121
     Height = 21
-    DataField = 'IMIE'
-    DataSource = DataModule2.DataSource1
     TabOrder = 1
   end
   object DBEdit3: TDBEdit
@@ -71,8 +67,6 @@ object Form6: TForm6
     Top = 104
     Width = 121
     Height = 21
-    DataField = 'KRAJ'
-    DataSource = DataModule2.DataSource1
     TabOrder = 2
   end
   object DBEdit4: TDBEdit
@@ -80,8 +74,6 @@ object Form6: TForm6
     Top = 136
     Width = 121
     Height = 21
-    DataField = 'DLUGOSC'
-    DataSource = DataModule2.DataSource1
     TabOrder = 3
   end
   object DBEdit5: TDBEdit
@@ -89,17 +81,6 @@ object Form6: TForm6
     Top = 163
     Width = 121
     Height = 21
-    DataField = 'NOTA'
-    DataSource = DataModule2.DataSource1
     TabOrder = 4
-  end
-  object Button1: TButton
-    Left = 144
-    Top = 216
-    Width = 75
-    Height = 25
-    Caption = 'Zapisz'
-    TabOrder = 5
-    OnClick = Button1Click
   end
 end

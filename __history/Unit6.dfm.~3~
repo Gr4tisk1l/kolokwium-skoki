@@ -93,13 +93,4 @@ object Form6: TForm6
     DataSource = DataModule2.DataSource1
     TabOrder = 4
   end
-  object Button1: TButton
-    Left = 144
-    Top = 216
-    Width = 75
-    Height = 25
-    Caption = 'Zapisz'
-    TabOrder = 5
-    OnClick = Button1Click
-  end
 end

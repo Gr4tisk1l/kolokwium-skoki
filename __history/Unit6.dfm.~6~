@@ -98,7 +98,7 @@ object Form6: TForm6
     Top = 216
     Width = 75
     Height = 25
-    Caption = 'Zapisz'
+    Caption = 'Button1'
     TabOrder = 5
     OnClick = Button1Click
   end

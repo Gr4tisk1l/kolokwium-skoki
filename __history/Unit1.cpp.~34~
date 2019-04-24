@@ -82,7 +82,6 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button4Click(TObject *Sender)
 {
-    DataModule2->IBTable1->Insert();
     Form6->ShowModal();
 }
 //---------------------------------------------------------------------------

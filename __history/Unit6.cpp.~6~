@@ -28,7 +28,7 @@ void __fastcall TForm6::Button1Click(TObject *Sender)
 		return;
 	}
 	if (!(DBEdit3->Field->AsString=="PL" || DBEdit3->Field->AsString=="GER" || DBEdit3->Field->AsString=="FIN" || DBEdit3->Field->AsString=="NOR")) {
-		ShowMessage("Podaj narodowoœæ (PL, GER, FIN, NOR)!");
+		ShowMessage("Podaj narodowoœæ!");
 		DBEdit3->SetFocus();
 		return;
 	}

@@ -15,9 +15,9 @@ __fastcall TForm6::TForm6(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm6::Button1Click(TObject *Sender)
+void __fastcall TForm6::DBEdit1Exit(TObject *Sender)
 {
-    	if (DBEdit1->Field->AsString=="") {
+	if (DBEdit1->Field->AsString=="") {
 		ShowMessage("Podaj nazwisko!");
 		DBEdit1->SetFocus();
 		return;
@@ -28,7 +28,7 @@ void __fastcall TForm6::Button1Click(TObject *Sender)
 		return;
 	}
 	if (!(DBEdit3->Field->AsString=="PL" || DBEdit3->Field->AsString=="GER" || DBEdit3->Field->AsString=="FIN" || DBEdit3->Field->AsString=="NOR")) {
-		ShowMessage("Podaj narodowoœæ (PL, GER, FIN, NOR)!");
+		ShowMessage("Podaj narodowoœæ!");
 		DBEdit3->SetFocus();
 		return;
 	}
@@ -43,7 +43,7 @@ void __fastcall TForm6::Button1Click(TObject *Sender)
 		return;
 	}
 
-    try
+	try
 	{
 		DataModule2->IBTable1->Post();
 	}
@@ -52,7 +52,7 @@ void __fastcall TForm6::Button1Click(TObject *Sender)
 		DBEdit1->SetFocus();
 		return;
 	}
-	DataModule2->IBTable1->Refresh();
+    DataModule2->IBTable1->Refresh();
 	Close();
 }
 //---------------------------------------------------------------------------
