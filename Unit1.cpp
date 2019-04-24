@@ -34,11 +34,11 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 	DataModule2->IBTable1->First();
 while (!DataModule2->IBTable1->Eof){
 	if (DataModule2->IBTable1->Fields->Fields[2]->AsString=="PL" && DataModule2->IBTable1->Fields->Fields[4]->AsFloat>StrToFloat(Edit1->Text)) {
-		sPl=sPl+DataModule2->IBTable1->Fields->Fields[3]->AsInteger;
+		sPl = sPl + DataModule2->IBTable1->Fields->Fields[3]->AsFloat;
 		jPl=jPl+1;
 	}
 	if (!(DataModule2->IBTable1->Fields->Fields[2]->AsString=="PL") && DataModule2->IBTable1->Fields->Fields[4]->AsFloat>StrToFloat(Edit1->Text)) {
-		sAnth=sAnth+DataModule2->IBTable1->Fields->Fields[3]->AsInteger;
+		sAnth=sAnth+DataModule2->IBTable1->Fields->Fields[3]->AsFloat;
 		jAnth=jAnth+1;
 	}
 	DataModule2->IBTable1->Next();
