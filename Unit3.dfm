@@ -14,10 +14,10 @@ object Form3: TForm3
   PixelsPerInch = 96
   TextHeight = 13
   object DBGrid1: TDBGrid
-    Left = 104
-    Top = 56
-    Width = 320
-    Height = 120
+    Left = 40
+    Top = 8
+    Width = 505
+    Height = 265
     DataSource = DataModule2.DataSource1
     TabOrder = 0
     TitleFont.Charset = DEFAULT_CHARSET

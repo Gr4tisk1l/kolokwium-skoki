@@ -17,8 +17,12 @@ __published:	// IDE-managed Components
 	TButton *Button4;
 	TEdit *Edit1;
 	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall Button2Click(TObject *Sender);
+	void __fastcall Edit1Exit(TObject *Sender);
+	void __fastcall Button3Click(TObject *Sender);
 private:	// User declarations
-public:		// User declarations
+public:
+float avgLPl, avgLAnth;		// User declarations
 	__fastcall TForm1(TComponent* Owner);
 };
 //---------------------------------------------------------------------------

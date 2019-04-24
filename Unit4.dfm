@@ -18,27 +18,25 @@ object Form4: TForm4
     Top = 40
     Width = 31
     Height = 13
-    Caption = 'Label1'
+    Caption = 'Polacy'
   end
   object Label2: TLabel
-    Left = 216
+    Left = 128
     Top = 40
-    Width = 31
+    Width = 3
     Height = 13
-    Caption = 'Label1'
   end
   object Label3: TLabel
     Left = 40
     Top = 72
-    Width = 31
+    Width = 42
     Height = 13
-    Caption = 'Label1'
+    Caption = 'Pozostali'
   end
   object Label4: TLabel
-    Left = 216
+    Left = 128
     Top = 72
-    Width = 31
+    Width = 3
     Height = 13
-    Caption = 'Label1'
   end
 end
